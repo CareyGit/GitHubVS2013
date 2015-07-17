@@ -27,6 +27,7 @@ namespace LanguageFeatures.Controllers
                 Name = "Carey",
                 Price = 275M
             };
+
             return View("Result", (object) string.Format("Product name:{0}", product.Name));
         }
 
