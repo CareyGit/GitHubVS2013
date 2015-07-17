@@ -45,7 +45,6 @@ namespace LanguageFeatures.Controllers
                 }
             };
 
-
             // get the total value of the products in the cart
             decimal cartTotal = cart.TotalPrices();
             return View("Result",
